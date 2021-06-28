@@ -131,8 +131,7 @@ dmypy.json
 # Pycharm configs
 .idea/
 
-# Airflow dags
-dags/*.py
-
-# Airflow logs
-logs/*/
+# Airflow directories
+*/data/
+*/logs/
+*/plugins/
