@@ -33,7 +33,7 @@ with DAG(
     # TODO: Allow user to specify source and destination when triggering DAG
 
     fetch_data_task = PythonOperator(
-        task_id="fetch data",
+        task_id="fetch_data",
         python_callable=fetch_data,
         op_kwargs={
             "source": "https://stars.renci.org/var/kgx_data/sparc/curation-export.json",
